@@ -10,4 +10,8 @@
 
 # sh installer.sh
 
-#complite
+# jalankan dengan ketik
+
+# ./freefire.sh
+
+# complite
