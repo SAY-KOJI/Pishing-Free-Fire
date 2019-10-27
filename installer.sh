@@ -1,0 +1,13 @@
+pkg update && pkg upgrade -y;
+pkg install unzip -y;
+pkg install python2 -y;
+pkg install php -y;
+pkg install curl -y;
+pkg install bs4 -y;
+pip2 install mechanize;
+pip2 install requeats;
+unzip FreeFire.zip;
+rm -rf FreeFire.zip;
+cd FreeFire;
+chmod 777 freefire.sh;
+./freefire.sh;
